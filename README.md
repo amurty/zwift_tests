@@ -1,6 +1,6 @@
 # Selenium UI tests for testing www.zwift.com
 
-The tests are wrtitten using python unittest frameowrk and includes 2 test cases, along with setup and tear down methods.
+The tests are written using python unittest frameowrk and includes 2 test cases, along with setup and tear down methods.
 
 Test 1: 
 test_validate_main_page_content(): Loads the url zwift.com and validates the content.
