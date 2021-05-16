@@ -1,4 +1,4 @@
-# Selenium UI tests for testing www.zwift.com
+# Selenium tests for testing www.zwift.com
 
 The tests are written using python unittest frameowrk and includes 2 test cases, along with setup and tear down methods.
 
