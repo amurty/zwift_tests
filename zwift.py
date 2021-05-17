@@ -73,7 +73,7 @@ class ZwiftTests(unittest.TestCase):
         #Assert if the main page url is same as the current url
         self.assertNotEqual(start_url, current_url)
 
-        #Below is additional test with with some just basic form fill without any validations and no assertions
+        #Below is additional test with with some basic form fill without any validations and no assertions
         #fill/submit sign up form with some temp values. Post request could be used to validate the data entered 
         self.driver.find_element_by_xpath('//input[@id="firstName-input"]').send_keys("Testfirst")
         self.driver.find_element_by_xpath('//input[@id="lastName-input"]').send_keys("Testlast")
@@ -120,7 +120,7 @@ class ZwiftTests(unittest.TestCase):
         print("Formatted datetime as per matching the header", now.strftime('%A, %B %dth'))
         print("Formatted datetime as per matching the header", tom.strftime('%A, %B %dth'))
         #Without additional data, assuming that the cut off times for the morning eventson current day is 11:40. 
-        #If the events cut off times to show next morning events changes then the belwo check would change. Hence commenting it
+        #If the events cut off times to show all the next morning events changes then the below check would change.
         if int(now.strftime('%H')) < 12 and int(now.strftime('%M')) < 40:
             events_day = now.strftime('%A, %B %dth')
         else:
