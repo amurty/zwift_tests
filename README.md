@@ -6,8 +6,7 @@ Test 1: test_validate_main_page_content()
 - Load the url zwift.com and validate the page loads
 - Validate a content on the page
 
-Test 2:
-test_events_filter() 
+Test 2: test_events_filter() 
 - Load the url zwift.com and navigate to "Events" page. 
 - Filter the events based on selected values and validate that the events are updated after the filter.
 
