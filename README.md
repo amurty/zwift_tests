@@ -21,7 +21,8 @@ Dependencies
 
 Installing
 
-- Download the chromedriver and place the executable in the same directory as the python script
+- Download all the files in the repo to any directory and use the same direcotry path to execute tests
+- If not using the chrome driver executable from the repo, download the chromedriver and place the executable in the same directory as the python script
 - Install all the libraries added under the import section in the zwift.py on the test machine or virtual environment
 
 Run the tests
