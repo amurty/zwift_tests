@@ -26,6 +26,7 @@ class ZwiftTests(unittest.TestCase):
 
 
     def test_validate_main_page_content(self):
+        print("Test steps below")
 
         title_input = 'The at Home Cycling & Running Virtual Training App - Zwift'
 
