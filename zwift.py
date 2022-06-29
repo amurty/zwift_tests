@@ -22,6 +22,7 @@ class ZwiftTests(unittest.TestCase):
 
 
     def tearDown(self):
+        print("Test teardown steps")
         self.driver.close()
 
 
